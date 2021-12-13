@@ -32,11 +32,23 @@
 
 ### Para caracterizar bots no database executamos os seguintes passos em nosso Notebook:
 
--
--
-- 
-- 
--
+
+- Cálculo da média de reviews por cliente
+
+      Decidimos utilizar o dobro da média como referência para um numéro elevado de reviews por cliente
+
+- Filtrar usuários por `Verified_Purchase == 'N'`
+
+       Essa ferramenta (verified_purchase) foi criada pela amazon justamente para tentar filtrar bots de seus sistemas de reviews.
+       Um bot dificilmente teria sua compra de um produto verificada pela amazon, já que são feitos por Web-Scraping e o agente responsável pelo bot não vincularia uma compra a cada conta, como não compra realmente os produtos.
+
+- Identificar bots
+
+      Se um  cliente tem mais do que o dobro da média de reviews e não possui compras verificadas, pode-se assumir que se trata de um bot.
+
+- Numero de bots:
+
+      Chegamos a um número de __ bots
 
 ## Tarefa 3
 
