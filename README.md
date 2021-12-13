@@ -46,9 +46,9 @@
 
       Se um  cliente tem mais do que o dobro da média de reviews e não possui compras verificadas, pode-se assumir que se trata de um bot.
 
-- Numero de bots:
+- Número de bots:
 
-      Chegamos a um número de __ bots
+      Chegamos a um número de 363.643 bots
 
 ## Tarefa 3
 
