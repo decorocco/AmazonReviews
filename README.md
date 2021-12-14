@@ -136,4 +136,4 @@
 
 - **Acurácia**
 
-      A acurácia obtida foi de:
+      A acurácia obtida foi de: 0.74
